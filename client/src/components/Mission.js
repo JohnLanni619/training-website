@@ -3,7 +3,7 @@ import { LoremIpsum } from 'react-lorem-ipsum';
 
 const Mission = () => {
     return(
-        <section id='mission-container'>
+        <section id='mission'>
             <div className='mission-col1'>
                 <h2>Start Building Habits</h2>
                 <LoremIpsum p={1}/>

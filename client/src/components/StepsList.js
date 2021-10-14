@@ -27,12 +27,13 @@ const steps = [
 
 const StepsList = () => {
     return(
-        <section>
+        <section id='steps'>
+            <h2>The Process</h2>
             {steps.map((step) => {
                 return(
                     <div key={step.title}>
                         <span>{step.number}</span>
-                        <h3>{step.title}</h3>
+                        <h3 style={{display: 'inline'}}>| {step.title}</h3>
                         <p>{step.description}</p>
                     </div>
                 )
