@@ -126,7 +126,6 @@ header h1 {
 
 .about-container {
   display: flex;
-  border: 5px solid white;
   width: 60%;
   color: white;
 }
@@ -138,7 +137,6 @@ header h1 {
 
 /* Testimonials Styling */
 #testimonials {
-  border: 3px solid white;
   margin-top: 5px;
 }
 
@@ -150,6 +148,8 @@ header h1 {
 
 #testimonials h2 {
   text-align: center;
+  border-top: 5px solid white;
+  padding-top: 10px;
 }
 
 .testimonial-card {
